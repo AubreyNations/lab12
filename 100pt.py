@@ -11,8 +11,8 @@
 from Tkinter import *
 root = Tk()
 # Create our drawpad and oval
-drawpad = Canvas(root, width=480,height=320, background='white')
-oval = drawpad.create_oval(160,160,320,320, fill="red")
+drawpad = Canvas(root, width=480,height=320, background='green')
+oval = drawpad.create_oval(160,160,320,320, fill="purple")
 
 class MyApp:
 	def __init__(self, parent):
